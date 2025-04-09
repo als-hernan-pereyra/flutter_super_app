@@ -58,11 +58,14 @@ flutter run --flavor superapp
 Cada módulo satélite se puede ejecutar por separado usando los siguientes comandos:
 
 ```bash
-flutter run --flavor parking
+### flutter run --flavor parking
+flutter run --flavor parking --target=lib/satellite_apps/parking_module/lib/main.dart ## -d <device>
+
 ```
 
 ```bash
-flutter run --flavor services
+### flutter run --flavor services
+flutter run --flavor services --target=lib/satellite_apps/services_module/lib/main.dart ## -d <device>
 ```
 
 ## Cómo Funciona
